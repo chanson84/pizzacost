@@ -19,7 +19,7 @@ $(document).ready(
          var pizzacost= toppingcost + 15.00;
          var costperson= pizzacost/  number;
          //Put in Spans
-         $("costOutput").text(costperson.toFixed(2));
+         $("#costOutput").text(costperson.toFixed(2));
          $(".output").show();
         }
 
